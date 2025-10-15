@@ -8,11 +8,14 @@ public class Day38 {
         System.out.print("Masukkan angka: ");
         int angka = sc.nextInt();
         
-        if (angka < 0) {
-            System.out.println("Angka negatif");
+        if (angka == 0) {
+            System.out.println("Bilangan netral");
+            
+        }else if (angka < 0) {
+            System.out.println("Bilangan negatif");
             
         }else{
-            System.out.println("Angka positif");
+            System.out.println("Bilangan positif");
         }
     }
 }
