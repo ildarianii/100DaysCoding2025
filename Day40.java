@@ -32,10 +32,8 @@ public class Day40 {
             hasil = angka1 / angka2;
             System.out.println("Hasil = "+ hasil); 
             
-        }else if (op == '%') {
-            hasil = angka1 % angka2;
-            System.out.println("Hasil = "+ hasil); 
-            
+        }else{
+            System.out.println("Tidak valid!!!");
         }
           
     }
