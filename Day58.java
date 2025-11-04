@@ -14,6 +14,8 @@ public class Day58 {
 
         }
         System.out.println();
+        for (int i = N; i >= 1; i--) {
+            System.out.println(i);  
+        }
     }
-
 }
