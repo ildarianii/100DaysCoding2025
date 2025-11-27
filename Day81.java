@@ -6,5 +6,4 @@ public class Day81 {
         System.out.println(nilai[1]);
         System.out.println(nilai[3]);
     }
-    
 }
